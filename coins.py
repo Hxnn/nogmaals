@@ -30,15 +30,15 @@ if change > 0:  # Als je wisselgeld boven 0 is:
             coinValue = 300
         elif coinValue == 300:
             coinValue = 200
-        elif coinValue == 200:
+        if coinValue == 200:
             coinValue = 50
         elif coinValue == 50:
             coinValue = 20
-        elif coinValue == 20:
+        if coinValue == 20:
             coinValue = 10
         elif coinValue == 10:
             coinValue = 5
-        elif coinValue == 5:
+        if coinValue == 5:
             coinValue = 2
         elif coinValue == 2:
             coinValue = 1
